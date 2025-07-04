@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.openclassrooms.notes"
-    compileSdk = 33
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.openclassrooms.notes"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
