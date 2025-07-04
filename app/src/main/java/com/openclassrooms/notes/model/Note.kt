@@ -5,4 +5,4 @@ package com.openclassrooms.notes.model
  *  @param title The title of the note.
  *  @param body The body of the note.
  */
-class Note (title: String, body: String)
+class Note (var title: String, var body: String)
