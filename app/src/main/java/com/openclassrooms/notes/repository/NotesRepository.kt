@@ -1,7 +1,6 @@
 package com.openclassrooms.notes.repository
 
 import com.openclassrooms.notes.model.Note
-import com.openclassrooms.notes.service.LocalNotesApiService
 import com.openclassrooms.notes.service.NotesApiService
 import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow
@@ -13,7 +12,6 @@ import kotlinx.coroutines.flow.flow
 class NotesRepository @Inject constructor(
     private val notesApiService: NotesApiService
 ) {
-
 
     /**
      * A flow that emits a list of all notes.
