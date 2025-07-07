@@ -1,10 +1,13 @@
 package com.openclassrooms.notes.service
 import com.openclassrooms.notes.model.Note
+import javax.inject.Inject
+import javax.inject.Singleton
 
 /**
  * Implementation of the [NotesApiService] interface that stores note in local
  */
-class LocalNotesApiService : NotesApiService {
+@Singleton
+class LocalNotesApiService @Inject constructor(): NotesApiService {
 
     override fun addNote(note: Note) {
         TODO("Not yet implemented")
